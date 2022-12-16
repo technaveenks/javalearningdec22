@@ -3,7 +3,7 @@ package com.sira.learning.javalearningdec22.Aruna;
 public class StringAssignment {
 
 	public static void main(String[] args) {
-		 // create strings
+		// create strings
 	    String first = "Hello";
 	    String second = "world";
 
