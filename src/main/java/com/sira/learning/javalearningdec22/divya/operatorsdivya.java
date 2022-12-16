@@ -28,8 +28,11 @@ public class operatorsdivya {
 		boolean compare = num1>num2;
 		System.out.println(compare);
 		
-		boolean compare2 = num1<num2&&num2<num3;
-		System.out.println(compare);
+		boolean compare2 = num1<num2&&num2>num3;
+		System.out.println(compare2);
+		
+		boolean compare3 = num1<num2||num2>num3;
+		System.out.println(compare3);
 
 	}
 
