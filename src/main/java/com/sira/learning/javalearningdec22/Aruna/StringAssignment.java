@@ -14,7 +14,7 @@ public class StringAssignment {
 	    // get the length of greet
 	   System.out.println("length "+first.length());
 	    
-	    // create second
+	    // create second 
 	    System.out.println("Second String: " + second);
 
 	    // join two strings and uppercase
@@ -61,9 +61,7 @@ public class StringAssignment {
 	    // hash code
 	       System.out.println(first.hashCode());
 	       
-	     //reverse
-	       String rev = reverse(str1);
-	       System.out.println("Reversed sentence: " + rev);
+	     
 	       
 	   
 	
