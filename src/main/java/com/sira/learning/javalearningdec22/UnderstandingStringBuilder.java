@@ -7,7 +7,8 @@ public class UnderstandingStringBuilder {
 
 	public static void main(String[] args) {
 
-		// String name = "Kumar barath ram naveen"; StringBuilder stringBuilder = new
+		// String name = "Kumar barath ram naveen"; 
+		StringBuilder stringBuilder = new
 		StringBuilder();
 		stringBuilder.append("Kumar");
 		System.out.println(stringBuilder);
