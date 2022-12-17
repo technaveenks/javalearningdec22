@@ -7,7 +7,6 @@ public class Operators {
 		int firstnumber = 30;
 		int secondnumber = 20;
 		int result;
-		boolean relation;
 
 		// Arithmetic Operators =,-,*,/,%
 		// + Addition operation
