@@ -1,4 +1,4 @@
-package src.main.java.com.sira.learning.javalearningdec22.Madhavi;
+package com.sira.learning.javalearningdec22.Madhavi;
 
 public class Understandingstring {
 
@@ -6,9 +6,9 @@ public class Understandingstring {
 		// TODO Auto-generated method stub
 
 		
-		String fName = Sri;
-	    string lname = Rama;
-	    System.out.println(fname.charat(2));
+		/*
+		 * String fName = Sri; String lname = Rama; System.out.println(fname.charat(2));
+		 */
 	}
 
 }

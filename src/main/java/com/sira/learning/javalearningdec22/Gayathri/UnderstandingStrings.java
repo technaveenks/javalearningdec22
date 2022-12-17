@@ -15,7 +15,7 @@ public class UnderstandingStrings {
 		//Concatenation
 		
 		System.out.println(fName.length());
-		System.out.println(fName.toUppercase());
+		System.out.println(fName.toUpperCase());
 		
 		
 		

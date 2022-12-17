@@ -1,4 +1,4 @@
-package src.main.java.com.sira.learning.javalearningdec22.Madhavi;
+package com.sira.learning.javalearningdec22.Madhavi;
 
 public class Assignments {
 
