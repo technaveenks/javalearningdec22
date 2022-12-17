@@ -28,3 +28,4 @@ target/
 .classpath
 bin
 .project
+package-info.java
