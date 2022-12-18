@@ -60,12 +60,7 @@ public class StringAssignment {
 	       System.out.println(first.trim());
 	    // hash code
 	       System.out.println(first.hashCode());
-	       
-	     //reverse
-			/*
-			 * String rev = reverse(str1); System.out.println("Reversed sentence: " + rev);
-			 */
-	       
+	     
 	   
 	
 	}
