@@ -1,6 +1,10 @@
 package com.sira.learning.javalearningdec22;
 
-public class UnderstandingMethods {
+public class UnderstandingMethods extends UnderstandingFinal{
+	
+	public UnderstandingMethods() {
+		System.out.println(" this is constructor ");
+	}
 
 	public void addition() {
 		int firstValue = 10;
