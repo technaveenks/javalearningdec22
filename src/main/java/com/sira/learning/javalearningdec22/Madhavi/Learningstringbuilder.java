@@ -61,6 +61,9 @@ public class Learningstringbuilder {
 	      //append(Object obj)
 	      str = new StringBuilder("dreams");
 	      System.out.println("string"+ str.append(" cometrue"));
+	      
+	      //append(StringBuffer sb)
+	      //str = StringBuilder()
 	     
 	     
 	}
