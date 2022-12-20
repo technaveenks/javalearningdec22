@@ -1,7 +1,10 @@
 package com.sira.learning.javalearningdec22.ramya;
 
 public class UnderstandingMethods {
-
+	
+	int firstValue = 10;
+	int secondValue = 20;
+	
 	public void addition() {
 		
 		int addition = firstValue + secondValue;
@@ -33,8 +36,7 @@ public class UnderstandingMethods {
 			
 	}
 	public static void main(String[] args) {
-		int firstValue = 10;
-		int secondValue = 20;
+		
 		
 		UnderstandingMethods understandingMethods = new UnderstandingMethods();
 		understandingMethods.addition();
@@ -45,4 +47,12 @@ public class UnderstandingMethods {
 		
 	}
 
-}
+	}
+
+	
+	
+
+	
+	
+
+
