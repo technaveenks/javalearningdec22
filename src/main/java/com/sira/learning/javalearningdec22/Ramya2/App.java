@@ -1,4 +1,4 @@
-package com.sira.learning.javalearningdec22.Ramya1;
+package com.sira.learning.javalearningdec22.Ramya2;
 
 /**
  * Hello world!
