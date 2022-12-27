@@ -1,4 +1,4 @@
-package com.sira.learning.javalearningdec22;
+package com.sira.learning.javalearningdec22.ethan;
 
 public class Understanding_Static {
 static int number=10;

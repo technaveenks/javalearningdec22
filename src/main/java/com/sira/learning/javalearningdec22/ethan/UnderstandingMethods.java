@@ -1,4 +1,4 @@
-package com.sira.learning.javalearningdec22;
+package com.sira.learning.javalearningdec22.ethan;
 
 public class UnderstandingMethods extends UnderstandingFinal{
 	
@@ -22,6 +22,7 @@ public class UnderstandingMethods extends UnderstandingFinal{
 
 	public static void main(String[] args) {
 		UnderstandingMethods understandingMethods = new UnderstandingMethods();
+		UnderstandingMethods uMethod = new UnderstandingMethods();
 		understandingMethods.addition();
 		understandingMethods.substraction();
 	}
