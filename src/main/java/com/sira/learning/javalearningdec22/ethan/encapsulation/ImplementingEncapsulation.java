@@ -6,7 +6,7 @@ public class ImplementingEncapsulation extends UnderstandingEncapsulation{
 	
 	public static void main(String[] args) {
 		UnderstandingEncapsulation uEncap = new UnderstandingEncapsulation();
-		System.out.println(uEncap.getValue());
+	//	System.out.println(uEncap.getValue());
 	}
 
 }
