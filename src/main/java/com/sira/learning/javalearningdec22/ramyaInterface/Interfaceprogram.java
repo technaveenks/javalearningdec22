@@ -1,4 +1,4 @@
-package com.sira.learning.javalearningdec22.ramya;
+package com.sira.learning.javalearningdec22.ramyaInterface;
 
 public interface Interfaceprogram {
 	public void even();
