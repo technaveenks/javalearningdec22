@@ -4,12 +4,27 @@ import java.util.Scanner;
 
 public class Calculator {
 	public static void addition() {
+		/*
+		 * Scanner scanner = new Scanner(System.in);
+		 * System.out.println("Enter the first number"); 
+		 * int num1 = scanner.nextInt();
+		 * System.out.println("Enter the second number"); 
+		 * int num2 = scanner.nextInt();
+		 * System.out.println("The addition of numbers are" + (num1 + num2));
+		 */
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter the first number");
-		int num1 = scanner.nextInt();
-		System.out.println("Enter the second number");
-		int num2 = scanner.nextInt();
-		System.out.println("The addition of numbers are" + (num1 + num2));
+		System.out.println("Enter how many numbers you want to add");
+		int n = scanner.nextInt();
+		int[] a = new int[n];
+		System.out.println("Please enter" + n + "numbers");
+		int i = 0, sum = 0;
+		while (i < n) {
+			System.out.println("Enter number" + (i + 1));
+			a[i] = scanner.nextInt();
+			sum += a[i];
+			i++;
+		}
+		System.out.println("sum of given four numbers " + sum);
 
 	}
 
@@ -19,7 +34,7 @@ public class Calculator {
 		int num1 = scanner.nextInt();
 		System.out.println("Enter the second number");
 		int num2 = scanner.nextInt();
-		System.out.println("The substraction of given numbers are" + (num1 - num2));
+		System.out.println("The substraction of given numbers are " + (num1 - num2));
 
 	}
 
@@ -29,7 +44,7 @@ public class Calculator {
 		int num1 = scanner.nextInt();
 		System.out.println("Enter the second number");
 		int num2 = scanner.nextInt();
-		System.out.println("Division of given numbers are" + (num1 / num2));
+		System.out.println("Division of given numbers are " + (num1 / num2));
 
 	}
 
@@ -39,17 +54,32 @@ public class Calculator {
 		int num1 = scanner.nextInt();
 		System.out.println("Enter the second number");
 		int num2 = scanner.nextInt();
-		System.out.println("The remainder of given numbers are" + (num1 % num2));
+		System.out.println("The remainder of given numbers are " + (num1 % num2));
 
 	}
 
 	public static void multiplication() {
+
+		// Scanner scanner = new Scanner(System.in);
+		// System.out.println("Enter the first number");
+		// int num1 = scanner.nextInt();
+		// System.out.println("Enter the second number");
+		// int num2 = scanner.nextInt();
+		// System.out.println("Multiplication of given numbers are" + (num1 * num2));
+
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter the first number");
-		int num1 = scanner.nextInt();
-		System.out.println("Enter the second number");
-		int num2 = scanner.nextInt();
-		System.out.println("Multiplication of given numbers are" + (num1 * num2));
+		System.out.println("Enter how many numbers you want to multiply");
+		int n = scanner.nextInt();
+		int[] a = new int[n];
+		System.out.println("Please enter" + n + "numbers");
+		int i = 0, mul = 1;
+		while (i < n) {
+			System.out.println("Enter number" + (i + 1));
+			a[i] = scanner.nextInt();
+			mul = mul * a[i];
+			i++;
+		}
+		System.out.println("multiplication of given " + n + " numbers " + mul);
 
 	}
 
@@ -84,6 +114,7 @@ public class Calculator {
 			System.exit(0);
 		default:
 			System.out.println("Please choose a number from above menu");
+
 		}
 
 	}
