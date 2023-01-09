@@ -2,9 +2,9 @@ package com.sira.learning.javalearningdec22.Madhavi;
 
 abstract class Items extends Ecommerce {
 	
-public void main(String[] args) {
+//public void main(String[] args) {
 		
-	}	
+//	}	
 
 	@Override
 	public void  earpods() {
